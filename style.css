@@ -9,7 +9,7 @@ header{
 }
 /*Navigation link hover effect*/
 .nav-link:hover {
-    color: #007bff !important    
+    color: #00ff04 !important    
 }
 /*section adjustments*/
 section{
@@ -29,7 +29,7 @@ section{
 }
 
 .rounded-circle {
-    border:3px solid #007bff;
+    border:3px solid #ff4400;
 }
 
 /*Card Hover Effect for Projects*/
@@ -43,7 +43,7 @@ section{
 
 /*Social Media Icons Hover Effect*/
 .social-icons a:hover {
-    color: #0d6efd important;
+    color: #0dedfd important;
 }
 
 /*Responsive Adjustments*/
@@ -51,4 +51,21 @@ section{
     .carousel video {
         max-height: 300px;
     }
+}
 
+<style>
+  .signup-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; /* Makes it rounded */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .signup-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+</style>
